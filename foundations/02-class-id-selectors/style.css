@@ -1,5 +1,14 @@
 .pink {
     background-color:pink;
+    font-family:sans-serif;
+}
+
+.pink.normal{
+    font-size:32px;
+}
+
+.pink.big{
+    font-size:48px;
 }
 
 #four {
@@ -8,4 +17,5 @@
 
 #two {
     color:blue;
+    font-size:32px;
 }
