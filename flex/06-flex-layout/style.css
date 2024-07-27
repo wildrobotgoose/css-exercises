@@ -16,6 +16,14 @@ body {
   padding: 20px;
 }
 
+.header a, .footer a {
+  color: #555;
+}
+
+.footer {
+  background-color: #eee;
+}
+
 .content {
   display: flex;
   flex-direction: column;
