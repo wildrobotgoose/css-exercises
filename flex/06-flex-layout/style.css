@@ -10,6 +10,11 @@ body {
   justify-content: space-between;
 }
 
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+}
+
 img {
   width: 600px;
 }
