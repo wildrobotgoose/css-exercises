@@ -6,6 +6,7 @@ html, body {
 
 body {
   font-family: Roboto, sans-serif;
+  font-size: 16px;
   margin: 0;
   background: #aaa;
   color: #333;
@@ -20,6 +21,10 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 16px;
+  margin: 16px;
+  gap: 16px;
 }
 
 .icon {
@@ -29,10 +34,28 @@ body {
   background: lavender;
   width: 42px;
   height: 42px;
+  min-width: 42px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .close-button {
