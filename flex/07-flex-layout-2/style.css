@@ -32,6 +32,7 @@ body {
   background: royalblue;
   box-sizing: border-box;
   padding: 16px;
+  flex-shrink: 0;
 }
 
 .sidebar a {
