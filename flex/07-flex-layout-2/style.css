@@ -29,8 +29,15 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  width: 315px;
+  min-width: 315px;
 }
 
 .middle {
   display: flex;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
 }
